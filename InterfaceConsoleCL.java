@@ -6,7 +6,7 @@ public class InterfaceConsoleCL {
 		// Laisse l'utilisateur jouer ou revenir au menuPrincipal ou aller aux parametres
 		boolean continuer = true;
 		int a;
-		String [] tab = {"0 - Revenir au menu menu principal", "1 - Jouer de manière classique", "2 - Jouer à une variante","3 - Voir les records","4 - Voir les parties"};
+		String [] tab = {"0 - Quitter", "1 - Jouer de manière classique", "2 - Jouer à une variante","3 - Voir les records","4 - Voir les parties"};
 
 		while (continuer) {
 			a = menu("Menu Color Lines : ",tab,true);
